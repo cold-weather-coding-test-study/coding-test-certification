@@ -14,7 +14,7 @@
     
     ex: `git branch JeongHunHui`
     
-2. `깃허브 아이디`/`n`주차/`플랫폼`_`문제번호`_`문제이름` 이러한 경로로 문제 풀이 추가
+2. `깃허브 아이디`/`n`주차/`플랫폼`\_`문제번호`_`문제이름` 이러한 경로로 문제 풀이 추가
     
     ![image](https://github.com/user-attachments/assets/91c0175b-18a3-425a-8b3b-73bdaa960289)
     
