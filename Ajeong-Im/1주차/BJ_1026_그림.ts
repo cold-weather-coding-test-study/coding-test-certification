@@ -3,8 +3,8 @@ import * as fs from "fs";
 // 파일 경로 설정: 리눅스 환경에서는 '/dev/stdin', 그 외 환경에서는 './input.txt' 사용
 const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
 
-const inputData = fs.readFileSync(filePath, "utf8");
-const lines = inputData
+const input = fs.readFileSync(filePath, "utf8");
+const lines = input
   .split("\n")
   .map((line) => line.trim())
   .filter((line) => line !== "");
