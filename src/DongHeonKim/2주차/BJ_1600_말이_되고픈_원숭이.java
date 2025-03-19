@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Problem1600 {
+public class BJ_1600_말이_되고픈_원숭이 {
 
     // 위치 정보를 저장하는 클래스
     static class Pos {

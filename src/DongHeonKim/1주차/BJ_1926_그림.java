@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Problem1926 {
+public class BJ_1926_그림 {
 
     public static int arr[][];
     public static boolean visited[][];

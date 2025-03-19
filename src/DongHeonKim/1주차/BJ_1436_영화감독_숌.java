@@ -2,7 +2,7 @@ package DongHeonKim.week1;
 
 import java.util.Scanner;
 
-public class Problem1436
+public class BJ_1436_영화감독_숌
 {
 	static int d[];
 

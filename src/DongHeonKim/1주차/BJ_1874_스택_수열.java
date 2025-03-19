@@ -3,7 +3,7 @@ package DongHeonKim.week1;
 import java.io.*;
 import java.util.*;
 
-public class Problem1874 {
+public class BJ_1874_스택_수열 {
 	
 	static Stack<Integer> st = new Stack<>();
 	static int tmp=1;

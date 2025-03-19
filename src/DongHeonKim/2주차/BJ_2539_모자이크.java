@@ -3,7 +3,7 @@ package DongHeonKim.week2;
 import java.io.*;
 import java.util.*;
 
-public class Problem2539 {
+public class BJ_2539_모자이크 {
     static int rows, columns;                 // 도화지의 크기 (세로 x 가로)
     static int usePaper;                      // 사용할 수 있는 색종이의 개수
     static int wrongPaper;                    // 잘못 칠해진 칸 개수

@@ -3,7 +3,7 @@ package DongHeonKim.week1;
 import java.util.*;
 import java.io.*;
 
-public class Problem6443 {
+public class BJ_6443_애너그램 {
     static int TC;
     static char[] select;
     static int[] visit;

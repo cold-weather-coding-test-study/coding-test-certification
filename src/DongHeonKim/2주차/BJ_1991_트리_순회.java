@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
  
-public class Problem1991 {
+public class BJ_1991_트리_순회 {
     public static int n;
     public static int[][] arr;
  

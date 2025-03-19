@@ -3,7 +3,7 @@ package DongHeonKim.week2;
 import java.util.*;
 import java.io.*;
 
-public class Problem11725 {
+public class BJ_11725_트리의_부모_찾기 {
     static ArrayList<ArrayList<Integer>> edges = new ArrayList<>();
     static boolean[] visited;
     static int[] parents;
@@ -22,8 +22,8 @@ public class Problem11725 {
             int node1 = Integer.parseInt(st.nextToken());
             int node2 = Integer.parseInt(st.nextToken());
 
-            Problem11725.edges.get(node1).add(node2);
-            Problem11725.edges.get(node2).add(node1);
+            BJ_11725_트리의_부모_찾기.edges.get(node1).add(node2);
+            BJ_11725_트리의_부모_찾기.edges.get(node2).add(node1);
         }
 
         visited = new boolean[nodes+1];

@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class Problem1495{
+public class BJ_1495_기타리스트{
     
     static boolean[][] dp;
     static int N; //곡 개수
