@@ -14,6 +14,7 @@ let sequence = [];
 function backtrack(depth) {
   // 재귀 종료
   if (depth === M) { // M=2
+    // depth === 0 !== M
     // depth === 1 !== M
     // depth === 2 === M, i = 2
     // depth === 2 === M, i = 3
@@ -23,6 +24,7 @@ function backtrack(depth) {
     // depth === 2, i = 3, result = [1 2, 1 3]
     // depth === 2, i = 4, result = [1 2, 1 3, 1 4]
     return;
+    // depth === 2, i = 2, result = [1 2] => 재귀 종료로 function 함수 종료, 마지막으로 호출된 시점으로 이동 sequence.pop();
   }
 
   //
@@ -63,4 +65,4 @@ function backtrack(depth) {
 }
 
 backtrack(0);
-console.log(result.join("\n"));4
+console.log(result.join("\n"));

@@ -19,7 +19,7 @@ const np = (str) => {
   let j = wordLength - 1; // 뒤에서부터 시작
   while (str[i - 1] >= str[j]) j--; // i-1 보다 작은 알파벳
 
-  [str[i - 1], str[j]] = [str[j], str[i - 1]]; // 순서 바꾸기, abac -> acb
+  [str[i - 1], str[j]] = [str[j], str[i - 1]]; // 순서 바꾸기, abc -> acb
 
   let k = wordLength - 1; // 뒤에서부터 시작
   while (i < k) {
