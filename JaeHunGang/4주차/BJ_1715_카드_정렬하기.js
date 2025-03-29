@@ -62,18 +62,18 @@ class MinHeap {
 const heap = new MinHeap();
 
 for (let num of numCardBundles) {
-  heap.numCardPush(num); // ✅ 바뀐 함수명 사용
+  heap.numCardPush(num);
 }
 
 let totalCost = 0;
 
 while (heap.numCardSize() > 1) {
   // ✅ 바뀐 함수명 사용
-  const a = heap.numCardPop(); // ✅ 바뀐 함수명 사용
-  const b = heap.numCardPop(); // ✅ 바뀐 함수명 사용
+  const a = heap.numCardPop();
+  const b = heap.numCardPop();
   const cost = a + b;
   totalCost += cost;
-  heap.numCardPush(cost); // ✅ 바뀐 함수명 사용
+  heap.numCardPush(cost);
 }
 
 console.log(totalCost);
