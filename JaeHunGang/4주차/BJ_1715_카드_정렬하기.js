@@ -68,7 +68,6 @@ for (let num of numCardBundles) {
 let totalCost = 0;
 
 while (heap.numCardSize() > 1) {
-  // ✅ 바뀐 함수명 사용
   const a = heap.numCardPop();
   const b = heap.numCardPop();
   const cost = a + b;
