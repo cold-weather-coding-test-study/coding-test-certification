@@ -49,7 +49,7 @@ API_URL+="&recommend=recommend&recommend=practice"
 API_URL+="&limit=5000&offset=0"
 
 # API 호출하여 JSON 응답 저장
-json=$(curl -s "$API_URL")
+json=$(curl -s -k "$API_URL")
 
 # jq를 이용해 각 문제의 필요한 정보를 한 줄 JSON으로 추출
 # tags: 태그 id들을 콤마로 연결한 문자열로 변환
